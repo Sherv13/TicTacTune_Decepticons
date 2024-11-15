@@ -1,12 +1,12 @@
-# Decepticons Members:
-Ricafranca, Shervin N.                        **(Sherv13)**
+# Decepticons Members (CSS124L - BM2):
+Adao, John Rey                                 ***(JohnRey-Adao)***
 
-Leviste, Lee Ryan A.                          **(lee2312)**
+Baustista, Ian                                 ***(Ian-Russel)***
 
-Santeco, Enrique                              **(shrkocat)**
+Catihanan, Aaron                               ***(agcatihanan)***
 
-Adao, John Rey                                 **(JohnRey-Adao)**
+Leviste, Lee Ryan A.                           ***(lee2312)***
 
-Baustista, Ian                                 **(Ian-Russel)**
+Ricafranca, Shervin N.                         ***(Sherv13)***
 
-Catihanan, Aaron                               **(agcatihanan)**
+Santeco, Enrique                               ***(shrkocat)***
