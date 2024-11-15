@@ -1,0 +1,150 @@
+/* Base styles for the application */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Light blue to white gradient */
+}
+
+/* Styles for labels */
+.label {
+    -fx-text-fill: #333; /* Dark gray text for better readability */
+    -fx-font-size: 18px; /* Slightly larger font size */
+    -fx-font-weight: bold; /* Bold text */
+}
+
+/* Title label styles */
+.title-label {
+    -fx-font-size: 24px; /* Larger font size for titles */
+    -fx-font-weight: bold; /* Bold font for titles */
+    -fx-text-fill: #4CAF50; /* Green color for the title */
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #45a049); /* Gradient background for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-font-size: 16px; /* Font size for buttons */
+    -fx-padding: 10px; /* Padding inside buttons */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1); /* Subtle shadow effect */
+    -fx-transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #45a049, #4CAF50); /* Darker gradient on hover */
+}
+
+/* Additional button styles for sign up */
+.signup-button {
+    -fx-background-color: linear-gradient(to bottom, #2196F3, #1976D2); /* Blue gradient for sign up button */
+    -fx-text-fill: white; /* White text for sign up button */
+    transition: 0.3s ease;
+}
+
+.signup-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #1976D2, #2196F3); /* Darker blue on hover for sign up button */
+}
+
+/* TextField and PasswordField styles */
+.text-field {
+    -fx-background-color: white; /* White background for input fields */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 10px; /* Padding inside the input fields */
+    -fx-font-size: 14px; /* Font size for input fields */
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50; /* Green border on focus */
+}
+
+/* VBox styles for layout sections */
+.vbox {
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-padding: 20; /* Padding inside VBox */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 1); /* Soft shadow effect */
+}
+
+/* ListView styles */
+.list-view {
+    -fx-background-color: white; /* White background for list views */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+/* Slider styles */
+.slider {
+    -fx-background-color: #ddd; /* Light gray background for slider */
+}
+
+.slider .thumb {
+    -fx-background-color: #4CAF50; /* Green color for the slider thumb */
+}
+
+/* Alert dialog styles */
+.alert {
+    -fx-background-color: #fff; /* White background for alert dialogs */
+    -fx-font-size: 14px; /* Font size for alert messages */
+}
+
+/* Game board button styles */
+.game-button {
+    -fx-pref-size: 100; /* Fixed size for game buttons */
+    -fx-font-size: 24px; /* Font size for game buttons */
+    -fx-border-color: #4CAF50; /* Green border for game buttons */
+    -fx-background-color: #fff; /* White background for game buttons */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 1); /* Soft shadow effect */
+    -fx-transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.game-button:hover {
+    -fx-background-color: #e0e0e0; /* Light gray on hover */
+    -fx-border-color: #388E3C; /* Darker green border on hover */
+}
+
+/* Miscellaneous styles */
+.message-label {
+    -fx-text-fill: red; /* Red text for error messages */
+}
+
+/* Game board grid styling */
+.grid-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the game board */
+    -fx-padding: 20; /* Padding around the grid */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 10; /* Rounded corners for the grid */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 1); /* Soft shadow effect */
+}
+
+/* Turn label styling */
+.turn-label {
+    -fx-font-size: 20px; /* Larger font size for turn label */
+    -fx-text-fill: #4CAF50; /* Green color for turn label */
+    -fx-font-weight: bold; /* Bold text for emphasis */
+}
+
+/* Music player section styling */
+.music-player {
+    -fx-background-color: rgba(240, 240, 240, 0.9); /* Light gray background */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-padding: 20; /* Padding inside music player */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 1); /* Soft shadow effect */
+}
+
+/* Queue list view styling */
+.queue-list-view {
+    -fx-background-color: #fff; /* White background for queue list */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+/* Volume slider styling */
+.volume-slider {
+    -fx-background-color: #ddd; /* Light gray background for volume slider */
+    -fx-pref-width: 200; /* Preferred width for volume slider */
+}
+
+/* Login Page Background */
+.login-page {
+    -fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Light blue to white gradient */
+}
